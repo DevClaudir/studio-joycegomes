@@ -16,8 +16,8 @@
         align-items: center;
     }
     .container-homepage .circle {
-        height: 360px;
-        width: 360px;
+        height: 300px;
+        width: 300px;
         animation: 2.5s FotoPrincipal infinite;
     }
     .texto {
@@ -25,15 +25,15 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 80%;
+        width: 100%;
         gap: 16px;
         padding: 0 15px 0 15px;
     }
-    .texto h2, .texto span {
-        text-align: center;
+    section h2 {
+        font-size: 1.8em;
     }
-    .texto p {
-        text-align: justify;
+    .container-homepage .texto h2 {
+        font-size: 1.5em;
     }
     .texto span {
         font-size: 18px;
@@ -60,8 +60,8 @@
         gap: 32px;
     }
     #galeria img {
-        height: 400px;
-        width: 260px;
+        height: 450px;
+        width: 300px;
         border-radius: 16px;
         object-fit: cover;
     }
@@ -102,8 +102,8 @@
         gap: 28px;
     }
     .container-fotos-estudio img {
-        height: 400px;
-        width: 260px;
+        height: 450px;
+        width: 300px;
         border-radius: 12px;
     }
     #avaliacoes {
@@ -118,14 +118,10 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 80%;
         background-color: #c36e83;
         border-radius: 16px;
         box-shadow: #f8b7c3 6px 6px 3px;
         flex-wrap: wrap;
-    }
-    .container-contatos {
-        gap: 32px;
     }
 
     .avaliacao {
@@ -158,7 +154,6 @@
         background-color: #c36e83;
         color: #FFF;
         width: 100%;
-        padding: 16px 32px;
         border-radius: 12px;
         font-size: 18px;
     }
